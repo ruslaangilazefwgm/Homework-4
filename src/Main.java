@@ -77,5 +77,27 @@ public class Main {
         else  {
             System.out.println("В вагоне нет мест");
         }
+
+        // Задание 3. Задача 1
+        System.out.println("Задание 3. Задача 1");
+
+        int newAge = 24;
+        if (newAge >= 2 && newAge <= 6) {
+            System.out.println("Если возраст человека равен " + newAge + " ,то ему нужно ходить в детский сад");
+        }
+        if (newAge >= 7 && newAge < 18) {
+            System.out.println("Если возраст человека равен " + newAge + " ,то ему нужно ходить в школу");
+        }
+        if (newAge >= 18 && newAge < 24) {
+            System.out.println("Если возраст человека равен " + newAge + " ,то ему нужно ходить в университет");
+        }
+        else {
+            System.out.println("Если возраст человека равен " + newAge + " ,то ему нужно ходить на работу");
+        }
+
+        //Задача 2
+        System.out.println("Задача 2");
+
+
     }
 }

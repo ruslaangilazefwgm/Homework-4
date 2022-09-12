@@ -98,6 +98,35 @@ public class Main {
         //Задача 2
         System.out.println("Задача 2");
 
+        int childAge = 14;
+        if (childAge < 5) {
+            System.out.println("Ребенок не может кататься на аттракционе");
+        }
+        if (childAge >= 5 && childAge < 14) {
+            System.out.println("Ребенок может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+        }
+        else {
+            System.out.println("Ребенок может кататься без сопровождения взрослого.");
+        }
+
+        //Задача 3
+        System.out.println("Задача 3");
+
+        int one = 4;
+        int two = 5;
+        int free = 3;
+
+        if (one > two && one > free) {
+            System.out.println(one);
+        }
+        if (two > one && two > free) {
+            System.out.println(two);
+        }
+        else {
+            System.out.println(free);
+        }
+
+
 
     }
 }
